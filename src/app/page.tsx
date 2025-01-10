@@ -11,7 +11,7 @@ export default function Home() {
       <main className="flex-1 flex flex-col items-center justify-center p-8">
         <Main />
       </main>
-      <footer className="bg-slate-200">
+      <footer>
         <Footer />
       </footer>
     </div>
