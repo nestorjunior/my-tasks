@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import Button from "@/components/Button";
+import Link from "next/link";
 
 export function Main() {
   return (
@@ -16,11 +16,12 @@ export function Main() {
       </h1>
 
       <div>
-        <Button
-          text="Contact us"
-          secondary
-          onClick={() => console.log("Botão de contato clicado")}
-        />
+        <Link
+          href="/account"
+          className="px-5 py-2 transition-colors duration-300 ease-in-out text-black bg-white hover:bg-black hover:text-white rounded-md border"
+        >
+          Contact us
+        </Link>
       </div>
     </>
   );
