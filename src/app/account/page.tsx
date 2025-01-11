@@ -10,13 +10,13 @@ export default function Account() {
             <Tabs.List className="flex flex-row justify-between">
               <Tabs.Trigger
                 value="tab1"
-                className="basis-1/2 border border-gray-200 bg-gray-50 p-4 rounded-t-md hover:bg-slate-500 hover:text-white focus:text-white focus:bg-slate-500 text-sm font-medium data-[state=active]:bg-slate-500 data-[state=active]:text-white"
+                className="basis-1/2 border border-gray-200 bg-gray-100 p-4 rounded-md hover:bg-[#3183FF] hover:text-white focus:text-white focus:bg-[#3183FF] text-sm font-medium data-[state=active]:bg-[#3183FF] data-[state=active]:text-white transition-colors duration-300 ease-in-out mr-1"
               >
                 Login
               </Tabs.Trigger>
               <Tabs.Trigger
                 value="tab2"
-                className="basis-1/2 border border-gray-200 bg-gray-50 p-4 rounded-t-md hover:bg-slate-500 hover:text-white focus:text-white focus:bg-slate-500 text-sm font-medium data-[state=active]:bg-slate-500 data-[state=active]:text-white"
+                className="basis-1/2 border border-gray-200 bg-gray-100 p-4 rounded-md hover:bg-[#3183FF] hover:text-white focus:text-white focus:bg-[#3183FF] text-sm font-medium data-[state=active]:bg-[#3183FF] data-[state=active]:text-white transition-colors duration-300 ease-in-out"
               >
                 Create Account
               </Tabs.Trigger>
